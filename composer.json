@@ -1,0 +1,21 @@
+{
+    "name": "hypermix/csvfilter",
+    "description": "Filter Transcode For League CSV Reader",
+    "type": "library",
+    "authors": [
+        {
+            "name": "bc Choi",
+            "email": "bcchoi@tera-g.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	    "php": ">=5.3.0",
+	    "league/csv": ">=8.*"
+    },
+    "autoload": {
+	    "psr-0": {
+		    "CsvFilter": "src/"
+	    }
+    }
+}
